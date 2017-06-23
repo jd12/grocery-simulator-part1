@@ -10,16 +10,6 @@ import simulator.grocery.GroceryInterface;
 
 public class ConfigurationTest {
 
-	@Test (timeout = 100)
-	public void studentIDSet() {
-		if(Configuration.STUDENT_ID == null)
-			fail("You have not set your student ID yet.");
-		if(Configuration.STUDENT_ID.length() != 8)
-			fail("Your student ID should be an 8 digit number");
-		for(char c : Configuration.STUDENT_ID.toCharArray())
-			if(!Character.isDigit(c))
-				fail("Your student ID should not contain anything except digits.");
-	}
 
 	@Test (timeout = 100)
 	public void testQueueSet() {

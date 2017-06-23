@@ -16,11 +16,6 @@ import structures.QueueInterface;
  */
 public class Configuration {
 
-	/**
-	 * Your 8 digit student ID number. This must be completed for Deadline #1
-	 * and Deadline #2
-	 */
-	public static final String STUDENT_ID = null;
 
 	/**
 	 * Returns the {@link QueueInterface} that you would like to be graded
